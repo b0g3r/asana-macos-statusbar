@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "asana-macos-statusbar"
+version = "0.1.0"
+description = "Shows your current task from Asana in your system's statusbar"
+authors = ["Dima Boger"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rumps = "^0.3.0"
+asana = "^0.8.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

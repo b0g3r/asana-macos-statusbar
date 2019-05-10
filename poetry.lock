@@ -1,0 +1,134 @@
+[[package]]
+category = "main"
+description = "Asana API client"
+name = "asana"
+optional = false
+python-versions = "*"
+version = "0.8.2"
+
+[package.dependencies]
+requests = ">=2.14,<3.0.0"
+requests-oauthlib = ">=0.8.0,<0.9.0"
+six = ">=1.10,<2.0.0"
+
+[[package]]
+category = "main"
+description = "Python package for providing Mozilla's CA Bundle."
+name = "certifi"
+optional = false
+python-versions = "*"
+version = "2019.3.9"
+
+[[package]]
+category = "main"
+description = "Universal encoding detector for Python 2 and 3"
+name = "chardet"
+optional = false
+python-versions = "*"
+version = "3.0.4"
+
+[[package]]
+category = "main"
+description = "Internationalized Domain Names in Applications (IDNA)"
+name = "idna"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.8"
+
+[[package]]
+category = "main"
+description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
+name = "oauthlib"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.0.1"
+
+[[package]]
+category = "main"
+description = "Python<->ObjC Interoperability Module"
+name = "pyobjc-core"
+optional = false
+python-versions = "*"
+version = "5.2"
+
+[[package]]
+category = "main"
+description = "Wrappers for the Cocoa frameworks on macOS"
+name = "pyobjc-framework-cocoa"
+optional = false
+python-versions = "*"
+version = "5.2"
+
+[package.dependencies]
+pyobjc-core = ">=5.2"
+
+[[package]]
+category = "main"
+description = "Python HTTP for Humans."
+name = "requests"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "2.21.0"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+chardet = ">=3.0.2,<3.1.0"
+idna = ">=2.5,<2.9"
+urllib3 = ">=1.21.1,<1.25"
+
+[[package]]
+category = "main"
+description = "OAuthlib authentication support for Requests."
+name = "requests-oauthlib"
+optional = false
+python-versions = "*"
+version = "0.8.0"
+
+[package.dependencies]
+oauthlib = ">=0.6.2"
+requests = ">=2.0.0"
+
+[[package]]
+category = "main"
+description = "Ridiculously Uncomplicated MacOS Python Statusbar apps."
+name = "rumps"
+optional = false
+python-versions = "*"
+version = "0.3.0"
+
+[package.dependencies]
+pyobjc-framework-Cocoa = "*"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[[package]]
+category = "main"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+name = "urllib3"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
+version = "1.24.3"
+
+[metadata]
+content-hash = "877a56cdfae0222be04b4f1136885c27d1b510ee37b078f1db4d54998d07dcc0"
+python-versions = "^3.7"
+
+[metadata.hashes]
+asana = ["ce9270761757b15fb9d699d2d664609bb71555c3df80c853da502441f594a629", "e069b3f3c570e20cb4271dba4006d05ee94af485e438f8e7d6f2ab96dcedb66d"]
+certifi = ["59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5", "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"]
+chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
+idna = ["c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407", "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"]
+oauthlib = ["0ce32c5d989a1827e3f1148f98b9085ed2370fc939bf524c9c851d8714797298", "3e1e14f6cde7e5475128d30e97edc3bfb4dc857cb884d8714ec161fdbb3b358e"]
+pyobjc-core = ["046449f510c1f33d41bdd0d4c8eb2f084593a2ee4573a25d604bdccabb7a909e", "5ae84984fa4967a6b6962ae25997de954d110efeea69ff1f09e128675f86dc80", "66651923eb225d3ad2a07c0b3530842c06b8f35e5adf30c74ea378697691bb09", "6be4631868b36dde9a771707f325b7ea7616f5ca1ad38eafe8435f4757193419", "6f3dd8e20119d5c75ea5ac548734fef2702c457b66aa66059b6e037129467f95", "9c79ab63ec48f195a5c07bbb7bc73378b6a45b1d7893f911ff51c918dae13538", "a6f65fb313e5e1efab5c4b4591142a73af4ca52a2c39d98f540f42fc774e262e", "b551af26c21883a6e27c0ce58e5e9f3ae9027388686ae978d134afa102164045", "cd13a2e9be890064a6dd11db7790bbf38502350c532a9a9d05511abb8683b8ea"]
+pyobjc-framework-cocoa = ["3a2a7771e584858ee43faef08b9ca7c632c8c27a3d9e1bfd5dd1909d7c087ed8", "406e0516e40aca309db1c1581a94c08394823b20b1a43e0cfe5b2390392b5d5a", "42fe17fce0ebdaeb1a8451b5ad955d7717c431f8af54573ef628486ab5c1441b", "561785bbc4dd2f05cc836464733382ef6a69cb13338a7bc5f8297f5cd021d0bd", "56a818b57f664e2b4e595e89070d79f824a04dd014cfa67e4fc74f2b3f1b6214", "793a807c583eecbeeba40114fc0156f28d3a5a2fda5094235b06bf8dcbb5982d", "cc51243ca34deccb99d8db738dccbad38934147fee2d64ef3cf6016ba3496675", "d72d48cf2e24c2f540a1b1348a880fde87b1f8cb7e1be5e95550a306152d48d0", "e9421ccb48d0c3c9c13f3f8f0f818fa77ced36e67cae998302f87269a1ee1402"]
+requests = ["502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e", "7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b"]
+requests-oauthlib = ["50a8ae2ce8273e384895972b56193c7409601a66d4975774c60c2aed869639ca", "883ac416757eada6d3d07054ec7092ac21c7f35cb1d2cf82faf205637081f468"]
+rumps = ["c8df19347c661cac8906fffd410727c6000f978a6c8c44a2803a1786b35c4c1f", "e5ea41ce62312a0f1fa4280fc587bd8b5c6ff7ed0be219752c95f013109d148a"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
+urllib3 = ["2393a695cd12afedd0dcb26fe5d50d0cf248e5a66f75dbd89a3d4eb333a61af4", "a637e5fae88995b256e3409dc4d52c2e2e0ba32c42a6365fee8bbd2238de3cfb"]
