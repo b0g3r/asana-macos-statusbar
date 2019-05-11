@@ -37,6 +37,14 @@ version = "7.0"
 
 [[package]]
 category = "main"
+description = "Spinner for Click"
+name = "click-spinner"
+optional = false
+python-versions = "*"
+version = "0.1.8"
+
+[[package]]
+category = "main"
 description = "Internationalized Domain Names in Applications (IDNA)"
 name = "idna"
 optional = false
@@ -124,7 +132,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
 version = "1.24.3"
 
 [metadata]
-content-hash = "013d88b22b23b5f00760183d2640a5b80c0c97d7ee18e3c5f91144b6b4720ece"
+content-hash = "57d915ebf234aa2ee3fedc855bf40991144ed059560a876424c1eb922ae6684a"
 python-versions = "^3.7"
 
 [metadata.hashes]
@@ -132,6 +140,7 @@ asana = ["ce9270761757b15fb9d699d2d664609bb71555c3df80c853da502441f594a629", "e0
 certifi = ["59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5", "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"]
 chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
 click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
+click-spinner = ["67b5af5e825faf82a4fc6cda77c58359abe716fb1c9bc12cc7bea9a0cae1fc8e"]
 idna = ["c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407", "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"]
 oauthlib = ["0ce32c5d989a1827e3f1148f98b9085ed2370fc939bf524c9c851d8714797298", "3e1e14f6cde7e5475128d30e97edc3bfb4dc857cb884d8714ec161fdbb3b358e"]
 pyobjc-core = ["046449f510c1f33d41bdd0d4c8eb2f084593a2ee4573a25d604bdccabb7a909e", "5ae84984fa4967a6b6962ae25997de954d110efeea69ff1f09e128675f86dc80", "66651923eb225d3ad2a07c0b3530842c06b8f35e5adf30c74ea378697691bb09", "6be4631868b36dde9a771707f325b7ea7616f5ca1ad38eafe8435f4757193419", "6f3dd8e20119d5c75ea5ac548734fef2702c457b66aa66059b6e037129467f95", "9c79ab63ec48f195a5c07bbb7bc73378b6a45b1d7893f911ff51c918dae13538", "a6f65fb313e5e1efab5c4b4591142a73af4ca52a2c39d98f540f42fc774e262e", "b551af26c21883a6e27c0ce58e5e9f3ae9027388686ae978d134afa102164045", "cd13a2e9be890064a6dd11db7790bbf38502350c532a9a9d05511abb8683b8ea"]
