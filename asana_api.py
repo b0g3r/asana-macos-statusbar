@@ -9,7 +9,7 @@ class AsanaClient(object):
             token: str,
             project_id: Optional[str] = None,
             section_id: Optional[str] = None,
-            tag_id: Optional[str] = None
+            tag_id: Optional[str] = None,
     ):
         self._client = Client.access_token(token)
         if project_id is not None:

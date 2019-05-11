@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.7"
 rumps = "^0.3.0"
 asana = "^0.8.2"
+click = "^7.0"
 
 [tool.poetry.dev-dependencies]
 
